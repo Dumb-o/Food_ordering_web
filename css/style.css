@@ -360,9 +360,22 @@ fieldset legend {
   width: 100%;
   border-collapse: collapse;
 }
+.order thead {
+  background-color: #bfbbbb;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.order tbody {
+  background-color: white;
+  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
 .order .tbl-full img {
-  width: 35px;
-  height: 35px;
+  width: auto;
+  height: auto;
   vertical-align: middle;
   border-radius: 100%;
 }
@@ -370,6 +383,7 @@ fieldset legend {
   border-left: 1px solid #bfbbbb;
   border-right: 1px solid #bfbbbb;
 }
+
 .order .tbl-full tr th,
 .order .tbl-full tr td {
   border-bottom: 1px solid #bfbbbb;
